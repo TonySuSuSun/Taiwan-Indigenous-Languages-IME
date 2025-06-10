@@ -6,6 +6,25 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		71537A572DF84E5500060203 /* Amis.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537A502DF84E5500060203 /* Amis.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537A682DF84E7600060203 /* Atayal.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537A612DF84E7600060203 /* Atayal.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537A782DF84E8E00060203 /* Paiwan.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537A712DF84E8E00060203 /* Paiwan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537A882DF84E9F00060203 /* Bunun.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537A812DF84E9F00060203 /* Bunun.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537A982DF84EB600060203 /* Pinuyumayan.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537A912DF84EB600060203 /* Pinuyumayan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537AA82DF84ECB00060203 /* Rukai.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537AA12DF84ECA00060203 /* Rukai.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537AB82DF84EDD00060203 /* Cou.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537AB12DF84EDD00060203 /* Cou.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537AC82DF84EF500060203 /* Saisiyat.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537AC12DF84EF500060203 /* Saisiyat.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537AD82DF84F0C00060203 /* Tao.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537AD12DF84F0C00060203 /* Tao.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537AE82DF84F2100060203 /* Thao.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537AE12DF84F2100060203 /* Thao.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537AF82DF84F3300060203 /* Kavalan.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537AF12DF84F3300060203 /* Kavalan.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537B082DF84F6100060203 /* Truku.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537B012DF84F6000060203 /* Truku.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537B182DF84FA800060203 /* Sakizaya.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537B112DF84FA800060203 /* Sakizaya.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537B282DF84FB700060203 /* Sediq.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537B212DF84FB700060203 /* Sediq.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537B382DF84FCC00060203 /* Hla'alua.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537B312DF84FCC00060203 /* Hla'alua.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		71537B482DF84FDF00060203 /* Kanakanavu.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 71537B412DF84FDF00060203 /* Kanakanavu.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		71537A2F2DF84DFB00060203 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -21,12 +40,169 @@
 			remoteGlobalIDString = 71537A172DF84DF400060203;
 			remoteInfo = "Taiwan Indigenous Languages IME";
 		};
+		71537A552DF84E5500060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537A4F2DF84E5500060203;
+			remoteInfo = Amis;
+		};
+		71537A662DF84E7600060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537A602DF84E7600060203;
+			remoteInfo = Atayal;
+		};
+		71537A762DF84E8E00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537A702DF84E8E00060203;
+			remoteInfo = Paiwan;
+		};
+		71537A862DF84E9F00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537A802DF84E9F00060203;
+			remoteInfo = Bunun;
+		};
+		71537A962DF84EB600060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537A902DF84EB600060203;
+			remoteInfo = Pinuyumayan;
+		};
+		71537AA62DF84ECB00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537AA02DF84ECA00060203;
+			remoteInfo = Rukai;
+		};
+		71537AB62DF84EDD00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537AB02DF84EDD00060203;
+			remoteInfo = Cou;
+		};
+		71537AC62DF84EF500060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537AC02DF84EF500060203;
+			remoteInfo = Saisiyat;
+		};
+		71537AD62DF84F0C00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537AD02DF84F0C00060203;
+			remoteInfo = Tao;
+		};
+		71537AE62DF84F2100060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537AE02DF84F2100060203;
+			remoteInfo = Thao;
+		};
+		71537AF62DF84F3300060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537AF02DF84F3300060203;
+			remoteInfo = Kavalan;
+		};
+		71537B062DF84F6100060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537B002DF84F6000060203;
+			remoteInfo = Truku;
+		};
+		71537B162DF84FA800060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537B102DF84FA800060203;
+			remoteInfo = Sakizaya;
+		};
+		71537B262DF84FB700060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537B202DF84FB700060203;
+			remoteInfo = Sediq;
+		};
+		71537B362DF84FCC00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537B302DF84FCC00060203;
+			remoteInfo = "Hla'alua";
+		};
+		71537B462DF84FDF00060203 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 71537A102DF84DF400060203 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 71537B402DF84FDF00060203;
+			remoteInfo = Kanakanavu;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		71537A5C2DF84E5500060203 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				71537AB82DF84EDD00060203 /* Cou.appex in Embed Foundation Extensions */,
+				71537AC82DF84EF500060203 /* Saisiyat.appex in Embed Foundation Extensions */,
+				71537A982DF84EB600060203 /* Pinuyumayan.appex in Embed Foundation Extensions */,
+				71537A682DF84E7600060203 /* Atayal.appex in Embed Foundation Extensions */,
+				71537B182DF84FA800060203 /* Sakizaya.appex in Embed Foundation Extensions */,
+				71537B382DF84FCC00060203 /* Hla'alua.appex in Embed Foundation Extensions */,
+				71537AE82DF84F2100060203 /* Thao.appex in Embed Foundation Extensions */,
+				71537A572DF84E5500060203 /* Amis.appex in Embed Foundation Extensions */,
+				71537B082DF84F6100060203 /* Truku.appex in Embed Foundation Extensions */,
+				71537AA82DF84ECB00060203 /* Rukai.appex in Embed Foundation Extensions */,
+				71537AD82DF84F0C00060203 /* Tao.appex in Embed Foundation Extensions */,
+				71537A782DF84E8E00060203 /* Paiwan.appex in Embed Foundation Extensions */,
+				71537B282DF84FB700060203 /* Sediq.appex in Embed Foundation Extensions */,
+				71537B482DF84FDF00060203 /* Kanakanavu.appex in Embed Foundation Extensions */,
+				71537A882DF84E9F00060203 /* Bunun.appex in Embed Foundation Extensions */,
+				71537AF82DF84F3300060203 /* Kavalan.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		71537A182DF84DF400060203 /* Taiwan Indigenous Languages IME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Taiwan Indigenous Languages IME.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71537A2E2DF84DFB00060203 /* Taiwan Indigenous Languages IMETests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwan Indigenous Languages IMETests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		71537A382DF84DFB00060203 /* Taiwan Indigenous Languages IMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Taiwan Indigenous Languages IMEUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537A502DF84E5500060203 /* Amis.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Amis.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537A612DF84E7600060203 /* Atayal.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Atayal.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537A712DF84E8E00060203 /* Paiwan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Paiwan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537A812DF84E9F00060203 /* Bunun.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Bunun.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537A912DF84EB600060203 /* Pinuyumayan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Pinuyumayan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537AA12DF84ECA00060203 /* Rukai.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Rukai.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537AB12DF84EDD00060203 /* Cou.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Cou.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537AC12DF84EF500060203 /* Saisiyat.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Saisiyat.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537AD12DF84F0C00060203 /* Tao.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Tao.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537AE12DF84F2100060203 /* Thao.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Thao.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537AF12DF84F3300060203 /* Kavalan.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Kavalan.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537B012DF84F6000060203 /* Truku.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Truku.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537B112DF84FA800060203 /* Sakizaya.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Sakizaya.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537B212DF84FB700060203 /* Sediq.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Sediq.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537B312DF84FCC00060203 /* Hla'alua.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Hla'alua.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		71537B412DF84FDF00060203 /* Kanakanavu.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Kanakanavu.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
@@ -36,6 +212,118 @@
 				Info.plist,
 			);
 			target = 71537A172DF84DF400060203 /* Taiwan Indigenous Languages IME */;
+		};
+		71537A5B2DF84E5500060203 /* Exceptions for "Amis" folder in "Amis" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537A4F2DF84E5500060203 /* Amis */;
+		};
+		71537A6C2DF84E7600060203 /* Exceptions for "Atayal" folder in "Atayal" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537A602DF84E7600060203 /* Atayal */;
+		};
+		71537A7C2DF84E8E00060203 /* Exceptions for "Paiwan" folder in "Paiwan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537A702DF84E8E00060203 /* Paiwan */;
+		};
+		71537A8C2DF84E9F00060203 /* Exceptions for "Bunun" folder in "Bunun" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537A802DF84E9F00060203 /* Bunun */;
+		};
+		71537A9C2DF84EB600060203 /* Exceptions for "Pinuyumayan" folder in "Pinuyumayan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537A902DF84EB600060203 /* Pinuyumayan */;
+		};
+		71537AAC2DF84ECB00060203 /* Exceptions for "Rukai" folder in "Rukai" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537AA02DF84ECA00060203 /* Rukai */;
+		};
+		71537ABC2DF84EDD00060203 /* Exceptions for "Cou" folder in "Cou" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537AB02DF84EDD00060203 /* Cou */;
+		};
+		71537ACC2DF84EF500060203 /* Exceptions for "Saisiyat" folder in "Saisiyat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537AC02DF84EF500060203 /* Saisiyat */;
+		};
+		71537ADC2DF84F0C00060203 /* Exceptions for "Tao" folder in "Tao" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537AD02DF84F0C00060203 /* Tao */;
+		};
+		71537AEC2DF84F2100060203 /* Exceptions for "Thao" folder in "Thao" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537AE02DF84F2100060203 /* Thao */;
+		};
+		71537AFC2DF84F3300060203 /* Exceptions for "Kavalan" folder in "Kavalan" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537AF02DF84F3300060203 /* Kavalan */;
+		};
+		71537B0C2DF84F6100060203 /* Exceptions for "Truku" folder in "Truku" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537B002DF84F6000060203 /* Truku */;
+		};
+		71537B1C2DF84FA800060203 /* Exceptions for "Sakizaya" folder in "Sakizaya" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537B102DF84FA800060203 /* Sakizaya */;
+		};
+		71537B2C2DF84FB700060203 /* Exceptions for "Sediq" folder in "Sediq" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537B202DF84FB700060203 /* Sediq */;
+		};
+		71537B3C2DF84FCC00060203 /* Exceptions for "Hla'alua" folder in "Hla'alua" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537B302DF84FCC00060203 /* Hla'alua */;
+		};
+		71537B4C2DF84FDF00060203 /* Exceptions for "Kanakanavu" folder in "Kanakanavu" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 71537B402DF84FDF00060203 /* Kanakanavu */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
@@ -56,6 +344,134 @@
 		71537A3B2DF84DFB00060203 /* Taiwan Indigenous Languages IMEUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = "Taiwan Indigenous Languages IMEUITests";
+			sourceTree = "<group>";
+		};
+		71537A512DF84E5500060203 /* Amis */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537A5B2DF84E5500060203 /* Exceptions for "Amis" folder in "Amis" target */,
+			);
+			path = Amis;
+			sourceTree = "<group>";
+		};
+		71537A622DF84E7600060203 /* Atayal */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537A6C2DF84E7600060203 /* Exceptions for "Atayal" folder in "Atayal" target */,
+			);
+			path = Atayal;
+			sourceTree = "<group>";
+		};
+		71537A722DF84E8E00060203 /* Paiwan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537A7C2DF84E8E00060203 /* Exceptions for "Paiwan" folder in "Paiwan" target */,
+			);
+			path = Paiwan;
+			sourceTree = "<group>";
+		};
+		71537A822DF84E9F00060203 /* Bunun */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537A8C2DF84E9F00060203 /* Exceptions for "Bunun" folder in "Bunun" target */,
+			);
+			path = Bunun;
+			sourceTree = "<group>";
+		};
+		71537A922DF84EB600060203 /* Pinuyumayan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537A9C2DF84EB600060203 /* Exceptions for "Pinuyumayan" folder in "Pinuyumayan" target */,
+			);
+			path = Pinuyumayan;
+			sourceTree = "<group>";
+		};
+		71537AA22DF84ECA00060203 /* Rukai */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537AAC2DF84ECB00060203 /* Exceptions for "Rukai" folder in "Rukai" target */,
+			);
+			path = Rukai;
+			sourceTree = "<group>";
+		};
+		71537AB22DF84EDD00060203 /* Cou */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537ABC2DF84EDD00060203 /* Exceptions for "Cou" folder in "Cou" target */,
+			);
+			path = Cou;
+			sourceTree = "<group>";
+		};
+		71537AC22DF84EF500060203 /* Saisiyat */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537ACC2DF84EF500060203 /* Exceptions for "Saisiyat" folder in "Saisiyat" target */,
+			);
+			path = Saisiyat;
+			sourceTree = "<group>";
+		};
+		71537AD22DF84F0C00060203 /* Tao */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537ADC2DF84F0C00060203 /* Exceptions for "Tao" folder in "Tao" target */,
+			);
+			path = Tao;
+			sourceTree = "<group>";
+		};
+		71537AE22DF84F2100060203 /* Thao */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537AEC2DF84F2100060203 /* Exceptions for "Thao" folder in "Thao" target */,
+			);
+			path = Thao;
+			sourceTree = "<group>";
+		};
+		71537AF22DF84F3300060203 /* Kavalan */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537AFC2DF84F3300060203 /* Exceptions for "Kavalan" folder in "Kavalan" target */,
+			);
+			path = Kavalan;
+			sourceTree = "<group>";
+		};
+		71537B022DF84F6100060203 /* Truku */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537B0C2DF84F6100060203 /* Exceptions for "Truku" folder in "Truku" target */,
+			);
+			path = Truku;
+			sourceTree = "<group>";
+		};
+		71537B122DF84FA800060203 /* Sakizaya */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537B1C2DF84FA800060203 /* Exceptions for "Sakizaya" folder in "Sakizaya" target */,
+			);
+			path = Sakizaya;
+			sourceTree = "<group>";
+		};
+		71537B222DF84FB700060203 /* Sediq */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537B2C2DF84FB700060203 /* Exceptions for "Sediq" folder in "Sediq" target */,
+			);
+			path = Sediq;
+			sourceTree = "<group>";
+		};
+		71537B322DF84FCC00060203 /* Hla'alua */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537B3C2DF84FCC00060203 /* Exceptions for "Hla'alua" folder in "Hla'alua" target */,
+			);
+			path = "Hla'alua";
+			sourceTree = "<group>";
+		};
+		71537B422DF84FDF00060203 /* Kanakanavu */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				71537B4C2DF84FDF00060203 /* Exceptions for "Kanakanavu" folder in "Kanakanavu" target */,
+			);
+			path = Kanakanavu;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -82,6 +498,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71537A4D2DF84E5500060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A5E2DF84E7600060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A6E2DF84E8E00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A7E2DF84E9F00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A8E2DF84EB600060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A9E2DF84ECA00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AAE2DF84EDD00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ABE2DF84EF500060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ACE2DF84F0C00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ADE2DF84F2100060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AEE2DF84F3300060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AFE2DF84F6000060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B0E2DF84FA800060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B1E2DF84FB700060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B2E2DF84FCC00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B3E2DF84FDF00060203 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -91,6 +619,22 @@
 				71537A1A2DF84DF400060203 /* Taiwan Indigenous Languages IME */,
 				71537A312DF84DFB00060203 /* Taiwan Indigenous Languages IMETests */,
 				71537A3B2DF84DFB00060203 /* Taiwan Indigenous Languages IMEUITests */,
+				71537A512DF84E5500060203 /* Amis */,
+				71537A622DF84E7600060203 /* Atayal */,
+				71537A722DF84E8E00060203 /* Paiwan */,
+				71537A822DF84E9F00060203 /* Bunun */,
+				71537A922DF84EB600060203 /* Pinuyumayan */,
+				71537AA22DF84ECA00060203 /* Rukai */,
+				71537AB22DF84EDD00060203 /* Cou */,
+				71537AC22DF84EF500060203 /* Saisiyat */,
+				71537AD22DF84F0C00060203 /* Tao */,
+				71537AE22DF84F2100060203 /* Thao */,
+				71537AF22DF84F3300060203 /* Kavalan */,
+				71537B022DF84F6100060203 /* Truku */,
+				71537B122DF84FA800060203 /* Sakizaya */,
+				71537B222DF84FB700060203 /* Sediq */,
+				71537B322DF84FCC00060203 /* Hla'alua */,
+				71537B422DF84FDF00060203 /* Kanakanavu */,
 				71537A192DF84DF400060203 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,6 +645,22 @@
 				71537A182DF84DF400060203 /* Taiwan Indigenous Languages IME.app */,
 				71537A2E2DF84DFB00060203 /* Taiwan Indigenous Languages IMETests.xctest */,
 				71537A382DF84DFB00060203 /* Taiwan Indigenous Languages IMEUITests.xctest */,
+				71537A502DF84E5500060203 /* Amis.appex */,
+				71537A612DF84E7600060203 /* Atayal.appex */,
+				71537A712DF84E8E00060203 /* Paiwan.appex */,
+				71537A812DF84E9F00060203 /* Bunun.appex */,
+				71537A912DF84EB600060203 /* Pinuyumayan.appex */,
+				71537AA12DF84ECA00060203 /* Rukai.appex */,
+				71537AB12DF84EDD00060203 /* Cou.appex */,
+				71537AC12DF84EF500060203 /* Saisiyat.appex */,
+				71537AD12DF84F0C00060203 /* Tao.appex */,
+				71537AE12DF84F2100060203 /* Thao.appex */,
+				71537AF12DF84F3300060203 /* Kavalan.appex */,
+				71537B012DF84F6000060203 /* Truku.appex */,
+				71537B112DF84FA800060203 /* Sakizaya.appex */,
+				71537B212DF84FB700060203 /* Sediq.appex */,
+				71537B312DF84FCC00060203 /* Hla'alua.appex */,
+				71537B412DF84FDF00060203 /* Kanakanavu.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -115,10 +675,27 @@
 				71537A142DF84DF400060203 /* Sources */,
 				71537A152DF84DF400060203 /* Frameworks */,
 				71537A162DF84DF400060203 /* Resources */,
+				71537A5C2DF84E5500060203 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				71537A562DF84E5500060203 /* PBXTargetDependency */,
+				71537A672DF84E7600060203 /* PBXTargetDependency */,
+				71537A772DF84E8E00060203 /* PBXTargetDependency */,
+				71537A872DF84E9F00060203 /* PBXTargetDependency */,
+				71537A972DF84EB600060203 /* PBXTargetDependency */,
+				71537AA72DF84ECB00060203 /* PBXTargetDependency */,
+				71537AB72DF84EDD00060203 /* PBXTargetDependency */,
+				71537AC72DF84EF500060203 /* PBXTargetDependency */,
+				71537AD72DF84F0C00060203 /* PBXTargetDependency */,
+				71537AE72DF84F2100060203 /* PBXTargetDependency */,
+				71537AF72DF84F3300060203 /* PBXTargetDependency */,
+				71537B072DF84F6100060203 /* PBXTargetDependency */,
+				71537B172DF84FA800060203 /* PBXTargetDependency */,
+				71537B272DF84FB700060203 /* PBXTargetDependency */,
+				71537B372DF84FCC00060203 /* PBXTargetDependency */,
+				71537B472DF84FDF00060203 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				71537A1A2DF84DF400060203 /* Taiwan Indigenous Languages IME */,
@@ -176,6 +753,358 @@
 			productReference = 71537A382DF84DFB00060203 /* Taiwan Indigenous Languages IMEUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		71537A4F2DF84E5500060203 /* Amis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537A582DF84E5500060203 /* Build configuration list for PBXNativeTarget "Amis" */;
+			buildPhases = (
+				71537A4C2DF84E5500060203 /* Sources */,
+				71537A4D2DF84E5500060203 /* Frameworks */,
+				71537A4E2DF84E5500060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537A512DF84E5500060203 /* Amis */,
+			);
+			name = Amis;
+			packageProductDependencies = (
+			);
+			productName = Amis;
+			productReference = 71537A502DF84E5500060203 /* Amis.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537A602DF84E7600060203 /* Atayal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537A692DF84E7600060203 /* Build configuration list for PBXNativeTarget "Atayal" */;
+			buildPhases = (
+				71537A5D2DF84E7600060203 /* Sources */,
+				71537A5E2DF84E7600060203 /* Frameworks */,
+				71537A5F2DF84E7600060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537A622DF84E7600060203 /* Atayal */,
+			);
+			name = Atayal;
+			packageProductDependencies = (
+			);
+			productName = Atayal;
+			productReference = 71537A612DF84E7600060203 /* Atayal.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537A702DF84E8E00060203 /* Paiwan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537A792DF84E8E00060203 /* Build configuration list for PBXNativeTarget "Paiwan" */;
+			buildPhases = (
+				71537A6D2DF84E8E00060203 /* Sources */,
+				71537A6E2DF84E8E00060203 /* Frameworks */,
+				71537A6F2DF84E8E00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537A722DF84E8E00060203 /* Paiwan */,
+			);
+			name = Paiwan;
+			packageProductDependencies = (
+			);
+			productName = Paiwan;
+			productReference = 71537A712DF84E8E00060203 /* Paiwan.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537A802DF84E9F00060203 /* Bunun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537A892DF84E9F00060203 /* Build configuration list for PBXNativeTarget "Bunun" */;
+			buildPhases = (
+				71537A7D2DF84E9F00060203 /* Sources */,
+				71537A7E2DF84E9F00060203 /* Frameworks */,
+				71537A7F2DF84E9F00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537A822DF84E9F00060203 /* Bunun */,
+			);
+			name = Bunun;
+			packageProductDependencies = (
+			);
+			productName = Bunun;
+			productReference = 71537A812DF84E9F00060203 /* Bunun.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537A902DF84EB600060203 /* Pinuyumayan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537A992DF84EB600060203 /* Build configuration list for PBXNativeTarget "Pinuyumayan" */;
+			buildPhases = (
+				71537A8D2DF84EB600060203 /* Sources */,
+				71537A8E2DF84EB600060203 /* Frameworks */,
+				71537A8F2DF84EB600060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537A922DF84EB600060203 /* Pinuyumayan */,
+			);
+			name = Pinuyumayan;
+			packageProductDependencies = (
+			);
+			productName = Pinuyumayan;
+			productReference = 71537A912DF84EB600060203 /* Pinuyumayan.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537AA02DF84ECA00060203 /* Rukai */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537AA92DF84ECB00060203 /* Build configuration list for PBXNativeTarget "Rukai" */;
+			buildPhases = (
+				71537A9D2DF84ECA00060203 /* Sources */,
+				71537A9E2DF84ECA00060203 /* Frameworks */,
+				71537A9F2DF84ECA00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537AA22DF84ECA00060203 /* Rukai */,
+			);
+			name = Rukai;
+			packageProductDependencies = (
+			);
+			productName = Rukai;
+			productReference = 71537AA12DF84ECA00060203 /* Rukai.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537AB02DF84EDD00060203 /* Cou */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537AB92DF84EDD00060203 /* Build configuration list for PBXNativeTarget "Cou" */;
+			buildPhases = (
+				71537AAD2DF84EDD00060203 /* Sources */,
+				71537AAE2DF84EDD00060203 /* Frameworks */,
+				71537AAF2DF84EDD00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537AB22DF84EDD00060203 /* Cou */,
+			);
+			name = Cou;
+			packageProductDependencies = (
+			);
+			productName = Cou;
+			productReference = 71537AB12DF84EDD00060203 /* Cou.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537AC02DF84EF500060203 /* Saisiyat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537AC92DF84EF500060203 /* Build configuration list for PBXNativeTarget "Saisiyat" */;
+			buildPhases = (
+				71537ABD2DF84EF500060203 /* Sources */,
+				71537ABE2DF84EF500060203 /* Frameworks */,
+				71537ABF2DF84EF500060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537AC22DF84EF500060203 /* Saisiyat */,
+			);
+			name = Saisiyat;
+			packageProductDependencies = (
+			);
+			productName = Saisiyat;
+			productReference = 71537AC12DF84EF500060203 /* Saisiyat.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537AD02DF84F0C00060203 /* Tao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537AD92DF84F0C00060203 /* Build configuration list for PBXNativeTarget "Tao" */;
+			buildPhases = (
+				71537ACD2DF84F0C00060203 /* Sources */,
+				71537ACE2DF84F0C00060203 /* Frameworks */,
+				71537ACF2DF84F0C00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537AD22DF84F0C00060203 /* Tao */,
+			);
+			name = Tao;
+			packageProductDependencies = (
+			);
+			productName = Tao;
+			productReference = 71537AD12DF84F0C00060203 /* Tao.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537AE02DF84F2100060203 /* Thao */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537AE92DF84F2100060203 /* Build configuration list for PBXNativeTarget "Thao" */;
+			buildPhases = (
+				71537ADD2DF84F2100060203 /* Sources */,
+				71537ADE2DF84F2100060203 /* Frameworks */,
+				71537ADF2DF84F2100060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537AE22DF84F2100060203 /* Thao */,
+			);
+			name = Thao;
+			packageProductDependencies = (
+			);
+			productName = Thao;
+			productReference = 71537AE12DF84F2100060203 /* Thao.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537AF02DF84F3300060203 /* Kavalan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537AF92DF84F3300060203 /* Build configuration list for PBXNativeTarget "Kavalan" */;
+			buildPhases = (
+				71537AED2DF84F3300060203 /* Sources */,
+				71537AEE2DF84F3300060203 /* Frameworks */,
+				71537AEF2DF84F3300060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537AF22DF84F3300060203 /* Kavalan */,
+			);
+			name = Kavalan;
+			packageProductDependencies = (
+			);
+			productName = Kavalan;
+			productReference = 71537AF12DF84F3300060203 /* Kavalan.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537B002DF84F6000060203 /* Truku */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537B092DF84F6100060203 /* Build configuration list for PBXNativeTarget "Truku" */;
+			buildPhases = (
+				71537AFD2DF84F6000060203 /* Sources */,
+				71537AFE2DF84F6000060203 /* Frameworks */,
+				71537AFF2DF84F6000060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537B022DF84F6100060203 /* Truku */,
+			);
+			name = Truku;
+			packageProductDependencies = (
+			);
+			productName = Truku;
+			productReference = 71537B012DF84F6000060203 /* Truku.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537B102DF84FA800060203 /* Sakizaya */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537B192DF84FA800060203 /* Build configuration list for PBXNativeTarget "Sakizaya" */;
+			buildPhases = (
+				71537B0D2DF84FA800060203 /* Sources */,
+				71537B0E2DF84FA800060203 /* Frameworks */,
+				71537B0F2DF84FA800060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537B122DF84FA800060203 /* Sakizaya */,
+			);
+			name = Sakizaya;
+			packageProductDependencies = (
+			);
+			productName = Sakizaya;
+			productReference = 71537B112DF84FA800060203 /* Sakizaya.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537B202DF84FB700060203 /* Sediq */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537B292DF84FB700060203 /* Build configuration list for PBXNativeTarget "Sediq" */;
+			buildPhases = (
+				71537B1D2DF84FB700060203 /* Sources */,
+				71537B1E2DF84FB700060203 /* Frameworks */,
+				71537B1F2DF84FB700060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537B222DF84FB700060203 /* Sediq */,
+			);
+			name = Sediq;
+			packageProductDependencies = (
+			);
+			productName = Sediq;
+			productReference = 71537B212DF84FB700060203 /* Sediq.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537B302DF84FCC00060203 /* Hla'alua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537B392DF84FCC00060203 /* Build configuration list for PBXNativeTarget "Hla'alua" */;
+			buildPhases = (
+				71537B2D2DF84FCC00060203 /* Sources */,
+				71537B2E2DF84FCC00060203 /* Frameworks */,
+				71537B2F2DF84FCC00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537B322DF84FCC00060203 /* Hla'alua */,
+			);
+			name = "Hla'alua";
+			packageProductDependencies = (
+			);
+			productName = "Hla'alua";
+			productReference = 71537B312DF84FCC00060203 /* Hla'alua.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		71537B402DF84FDF00060203 /* Kanakanavu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 71537B492DF84FDF00060203 /* Build configuration list for PBXNativeTarget "Kanakanavu" */;
+			buildPhases = (
+				71537B3D2DF84FDF00060203 /* Sources */,
+				71537B3E2DF84FDF00060203 /* Frameworks */,
+				71537B3F2DF84FDF00060203 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				71537B422DF84FDF00060203 /* Kanakanavu */,
+			);
+			name = Kanakanavu;
+			packageProductDependencies = (
+			);
+			productName = Kanakanavu;
+			productReference = 71537B412DF84FDF00060203 /* Kanakanavu.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,6 +1126,54 @@
 						CreatedOnToolsVersion = 16.2;
 						TestTargetID = 71537A172DF84DF400060203;
 					};
+					71537A4F2DF84E5500060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537A602DF84E7600060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537A702DF84E8E00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537A802DF84E9F00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537A902DF84EB600060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537AA02DF84ECA00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537AB02DF84EDD00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537AC02DF84EF500060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537AD02DF84F0C00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537AE02DF84F2100060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537AF02DF84F3300060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537B002DF84F6000060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537B102DF84FA800060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537B202DF84FB700060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537B302DF84FCC00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					71537B402DF84FDF00060203 = {
+						CreatedOnToolsVersion = 16.2;
+					};
 				};
 			};
 			buildConfigurationList = 71537A132DF84DF400060203 /* Build configuration list for PBXProject "Taiwan Indigenous Languages IME" */;
@@ -216,6 +1193,22 @@
 				71537A172DF84DF400060203 /* Taiwan Indigenous Languages IME */,
 				71537A2D2DF84DFB00060203 /* Taiwan Indigenous Languages IMETests */,
 				71537A372DF84DFB00060203 /* Taiwan Indigenous Languages IMEUITests */,
+				71537A4F2DF84E5500060203 /* Amis */,
+				71537A602DF84E7600060203 /* Atayal */,
+				71537A702DF84E8E00060203 /* Paiwan */,
+				71537A802DF84E9F00060203 /* Bunun */,
+				71537A902DF84EB600060203 /* Pinuyumayan */,
+				71537AA02DF84ECA00060203 /* Rukai */,
+				71537AB02DF84EDD00060203 /* Cou */,
+				71537AC02DF84EF500060203 /* Saisiyat */,
+				71537AD02DF84F0C00060203 /* Tao */,
+				71537AE02DF84F2100060203 /* Thao */,
+				71537AF02DF84F3300060203 /* Kavalan */,
+				71537B002DF84F6000060203 /* Truku */,
+				71537B102DF84FA800060203 /* Sakizaya */,
+				71537B202DF84FB700060203 /* Sediq */,
+				71537B302DF84FCC00060203 /* Hla'alua */,
+				71537B402DF84FDF00060203 /* Kanakanavu */,
 			);
 		};
 /* End PBXProject section */
@@ -236,6 +1229,118 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		71537A362DF84DFB00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A4E2DF84E5500060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A5F2DF84E7600060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A6F2DF84E8E00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A7F2DF84E9F00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A8F2DF84EB600060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A9F2DF84ECA00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AAF2DF84EDD00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ABF2DF84EF500060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ACF2DF84F0C00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ADF2DF84F2100060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AEF2DF84F3300060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AFF2DF84F6000060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B0F2DF84FA800060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B1F2DF84FB700060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B2F2DF84FCC00060203 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B3F2DF84FDF00060203 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,6 +1371,118 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		71537A4C2DF84E5500060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A5D2DF84E7600060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A6D2DF84E8E00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A7D2DF84E9F00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A8D2DF84EB600060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537A9D2DF84ECA00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AAD2DF84EDD00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ABD2DF84EF500060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ACD2DF84F0C00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537ADD2DF84F2100060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AED2DF84F3300060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537AFD2DF84F6000060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B0D2DF84FA800060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B1D2DF84FB700060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B2D2DF84FCC00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71537B3D2DF84FDF00060203 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -278,6 +1495,86 @@
 			isa = PBXTargetDependency;
 			target = 71537A172DF84DF400060203 /* Taiwan Indigenous Languages IME */;
 			targetProxy = 71537A392DF84DFB00060203 /* PBXContainerItemProxy */;
+		};
+		71537A562DF84E5500060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537A4F2DF84E5500060203 /* Amis */;
+			targetProxy = 71537A552DF84E5500060203 /* PBXContainerItemProxy */;
+		};
+		71537A672DF84E7600060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537A602DF84E7600060203 /* Atayal */;
+			targetProxy = 71537A662DF84E7600060203 /* PBXContainerItemProxy */;
+		};
+		71537A772DF84E8E00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537A702DF84E8E00060203 /* Paiwan */;
+			targetProxy = 71537A762DF84E8E00060203 /* PBXContainerItemProxy */;
+		};
+		71537A872DF84E9F00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537A802DF84E9F00060203 /* Bunun */;
+			targetProxy = 71537A862DF84E9F00060203 /* PBXContainerItemProxy */;
+		};
+		71537A972DF84EB600060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537A902DF84EB600060203 /* Pinuyumayan */;
+			targetProxy = 71537A962DF84EB600060203 /* PBXContainerItemProxy */;
+		};
+		71537AA72DF84ECB00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537AA02DF84ECA00060203 /* Rukai */;
+			targetProxy = 71537AA62DF84ECB00060203 /* PBXContainerItemProxy */;
+		};
+		71537AB72DF84EDD00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537AB02DF84EDD00060203 /* Cou */;
+			targetProxy = 71537AB62DF84EDD00060203 /* PBXContainerItemProxy */;
+		};
+		71537AC72DF84EF500060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537AC02DF84EF500060203 /* Saisiyat */;
+			targetProxy = 71537AC62DF84EF500060203 /* PBXContainerItemProxy */;
+		};
+		71537AD72DF84F0C00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537AD02DF84F0C00060203 /* Tao */;
+			targetProxy = 71537AD62DF84F0C00060203 /* PBXContainerItemProxy */;
+		};
+		71537AE72DF84F2100060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537AE02DF84F2100060203 /* Thao */;
+			targetProxy = 71537AE62DF84F2100060203 /* PBXContainerItemProxy */;
+		};
+		71537AF72DF84F3300060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537AF02DF84F3300060203 /* Kavalan */;
+			targetProxy = 71537AF62DF84F3300060203 /* PBXContainerItemProxy */;
+		};
+		71537B072DF84F6100060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537B002DF84F6000060203 /* Truku */;
+			targetProxy = 71537B062DF84F6100060203 /* PBXContainerItemProxy */;
+		};
+		71537B172DF84FA800060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537B102DF84FA800060203 /* Sakizaya */;
+			targetProxy = 71537B162DF84FA800060203 /* PBXContainerItemProxy */;
+		};
+		71537B272DF84FB700060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537B202DF84FB700060203 /* Sediq */;
+			targetProxy = 71537B262DF84FB700060203 /* PBXContainerItemProxy */;
+		};
+		71537B372DF84FCC00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537B302DF84FCC00060203 /* Hla'alua */;
+			targetProxy = 71537B362DF84FCC00060203 /* PBXContainerItemProxy */;
+		};
+		71537B472DF84FDF00060203 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 71537B402DF84FDF00060203 /* Kanakanavu */;
+			targetProxy = 71537B462DF84FDF00060203 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -292,6 +1589,7 @@
 				DEVELOPMENT_TEAM = YY933KJ3GV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Taiwan Indigenous Languages IME/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "臺灣原住民語輸入法";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -320,6 +1618,7 @@
 				DEVELOPMENT_TEAM = YY933KJ3GV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Taiwan Indigenous Languages IME/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "臺灣原住民語輸入法";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -529,6 +1828,806 @@
 			};
 			name = Release;
 		};
+		71537A592DF84E5500060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "阿美語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Amis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537A5A2DF84E5500060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Amis/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "阿美語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Amis";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537A6A2DF84E7600060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Atayal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "泰雅語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Atayal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537A6B2DF84E7600060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Atayal/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "泰雅語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Atayal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537A7A2DF84E8E00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Paiwan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "排灣語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Paiwan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537A7B2DF84E8E00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Paiwan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "排灣語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Paiwan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537A8A2DF84E9F00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bunun/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "布農語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Bunun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537A8B2DF84E9F00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Bunun/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "布農語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Bunun";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537A9A2DF84EB600060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pinuyumayan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "卑南語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Pinuyumayan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537A9B2DF84EB600060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Pinuyumayan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "卑南語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Pinuyumayan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537AAA2DF84ECB00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rukai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "魯凱語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Rukai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537AAB2DF84ECB00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Rukai/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "魯凱語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Rukai";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537ABA2DF84EDD00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cou/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "鄒語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Cou";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537ABB2DF84EDD00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Cou/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "鄒語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Cou";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537ACA2DF84EF500060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Saisiyat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "賽夏語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Saisiyat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537ACB2DF84EF500060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Saisiyat/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "賽夏語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Saisiyat";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537ADA2DF84F0C00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tao/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "達悟語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Tao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537ADB2DF84F0C00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Tao/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "達悟語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Tao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537AEA2DF84F2100060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thao/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "邵語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Thao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537AEB2DF84F2100060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Thao/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "邵語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Thao";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537AFA2DF84F3300060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kavalan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "噶瑪蘭語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Kavalan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537AFB2DF84F3300060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kavalan/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "噶瑪蘭語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Kavalan";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537B0A2DF84F6100060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Truku/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "太魯閣語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Truku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537B0B2DF84F6100060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Truku/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "太魯閣語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Truku";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537B1A2DF84FA800060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sakizaya/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "撒奇萊雅語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Sakizaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537B1B2DF84FA800060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sakizaya/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "撒奇萊雅語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Sakizaya";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537B2A2DF84FB700060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sediq/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "賽德克語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Sediq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537B2B2DF84FB700060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Sediq/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "賽德克語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Sediq";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537B3A2DF84FCC00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hla'alua/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "拉阿魯哇語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Hla-alua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537B3B2DF84FCC00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Hla'alua/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "拉阿魯哇語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Hla-alua";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		71537B4A2DF84FDF00060203 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kanakanavu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "卡那卡那富語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Kanakanavu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71537B4B2DF84FDF00060203 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = YY933KJ3GV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Kanakanavu/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "卡那卡那富語";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "sususun.com.Taiwan-Indigenous-Languages-IME.Kanakanavu";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -564,6 +2663,150 @@
 			buildConfigurations = (
 				71537A4A2DF84DFB00060203 /* Debug */,
 				71537A4B2DF84DFB00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537A582DF84E5500060203 /* Build configuration list for PBXNativeTarget "Amis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537A592DF84E5500060203 /* Debug */,
+				71537A5A2DF84E5500060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537A692DF84E7600060203 /* Build configuration list for PBXNativeTarget "Atayal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537A6A2DF84E7600060203 /* Debug */,
+				71537A6B2DF84E7600060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537A792DF84E8E00060203 /* Build configuration list for PBXNativeTarget "Paiwan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537A7A2DF84E8E00060203 /* Debug */,
+				71537A7B2DF84E8E00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537A892DF84E9F00060203 /* Build configuration list for PBXNativeTarget "Bunun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537A8A2DF84E9F00060203 /* Debug */,
+				71537A8B2DF84E9F00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537A992DF84EB600060203 /* Build configuration list for PBXNativeTarget "Pinuyumayan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537A9A2DF84EB600060203 /* Debug */,
+				71537A9B2DF84EB600060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537AA92DF84ECB00060203 /* Build configuration list for PBXNativeTarget "Rukai" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537AAA2DF84ECB00060203 /* Debug */,
+				71537AAB2DF84ECB00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537AB92DF84EDD00060203 /* Build configuration list for PBXNativeTarget "Cou" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537ABA2DF84EDD00060203 /* Debug */,
+				71537ABB2DF84EDD00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537AC92DF84EF500060203 /* Build configuration list for PBXNativeTarget "Saisiyat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537ACA2DF84EF500060203 /* Debug */,
+				71537ACB2DF84EF500060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537AD92DF84F0C00060203 /* Build configuration list for PBXNativeTarget "Tao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537ADA2DF84F0C00060203 /* Debug */,
+				71537ADB2DF84F0C00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537AE92DF84F2100060203 /* Build configuration list for PBXNativeTarget "Thao" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537AEA2DF84F2100060203 /* Debug */,
+				71537AEB2DF84F2100060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537AF92DF84F3300060203 /* Build configuration list for PBXNativeTarget "Kavalan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537AFA2DF84F3300060203 /* Debug */,
+				71537AFB2DF84F3300060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537B092DF84F6100060203 /* Build configuration list for PBXNativeTarget "Truku" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537B0A2DF84F6100060203 /* Debug */,
+				71537B0B2DF84F6100060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537B192DF84FA800060203 /* Build configuration list for PBXNativeTarget "Sakizaya" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537B1A2DF84FA800060203 /* Debug */,
+				71537B1B2DF84FA800060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537B292DF84FB700060203 /* Build configuration list for PBXNativeTarget "Sediq" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537B2A2DF84FB700060203 /* Debug */,
+				71537B2B2DF84FB700060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537B392DF84FCC00060203 /* Build configuration list for PBXNativeTarget "Hla'alua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537B3A2DF84FCC00060203 /* Debug */,
+				71537B3B2DF84FCC00060203 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		71537B492DF84FDF00060203 /* Build configuration list for PBXNativeTarget "Kanakanavu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				71537B4A2DF84FDF00060203 /* Debug */,
+				71537B4B2DF84FDF00060203 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
