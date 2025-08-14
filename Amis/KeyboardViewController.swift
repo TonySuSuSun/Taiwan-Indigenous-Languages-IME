@@ -8,215 +8,182 @@
 import UIKit
 
 class KeyboardViewController: UIInputViewController {
-
-    func createButtonWithTitle(title: String) -> UIButton {
-
-        let button = UIButton.init(type: .system)
-        button.frame = CGRectMake(0, 0, 20, 20)
-        button.setTitle(title, for: .normal)
-        button.sizeToFit()
-        button.titleLabel!.font = UIFont.systemFont(ofSize: 15)
-        button.translatesAutoresizingMaskIntoConstraints = false
-        button.backgroundColor = UIColor(white: 1.0, alpha: 1.0)
-        button.setTitleColor(UIColor.darkGray, for: .normal)
-
-        button.addTarget(self, action: "didTapButton:", for: .touchUpInside)
-
-        return button
+    
+    var deleteButton: UIButton!
+    var spaceButton: UIButton!
+    
+    override func updateViewConstraints() {
+        super.updateViewConstraints()
+        
+        // 設置鍵盤高度
+        let heightConstraint = NSLayoutConstraint(
+            item: self.view!,
+            attribute: .height,
+            relatedBy: .equal,
+            toItem: nil,
+            attribute: .notAnAttribute,
+            multiplier: 0.0,
+            constant: 216.0
+        )
+        self.view.addConstraint(heightConstraint)
     }
-
-    func didTapButton(sender: AnyObject?) {
-
-        let button = sender as! UIButton
-
-        var proxy = textDocumentProxy
-
-        if let title = button.title(for: .normal) as String? {
-            switch title {
-            case "BP":
-                proxy.deleteBackward()
-            case "RETURN":
-                proxy.insertText("\n")
-            case "SPACE":
-                proxy.insertText(" ")
-            case "CHG":
-                self.advanceToNextInputMode()
-            default:
-                proxy.insertText(title)
-            }
-        }
-    }
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let buttonTitles1 = ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"]
-        let buttonTitles2 = ["A", "S", "D", "F", "G", "H", "J", "K", "L"]
-        let buttonTitles3 = ["CP", "Z", "X", "C", "V", "B", "N", "M", "BP"]
-        let buttonTitles4 = ["CHG", "SPACE", "RETURN"]
-
-        var row1 = createRowOfButtons(buttonTitles: buttonTitles1)
-        var row2 = createRowOfButtons(buttonTitles: buttonTitles2)
-        var row3 = createRowOfButtons(buttonTitles: buttonTitles3)
-        var row4 = createRowOfButtons(buttonTitles: buttonTitles4)
-
-        self.view.addSubview(row1)
-        self.view.addSubview(row2)
-        self.view.addSubview(row3)
-        self.view.addSubview(row4)
-
-        row1.translatesAutoresizingMaskIntoConstraints = false
-        row2.translatesAutoresizingMaskIntoConstraints = false
-        row3.translatesAutoresizingMaskIntoConstraints = false
-        row4.translatesAutoresizingMaskIntoConstraints = false
-
-        addConstraintsToInputView(
-            inputView: self.view, rowViews: [row1, row2, row3, row4])
+        setupKeyboard()
     }
-
-    func addIndividualButtonConstraints(buttons: [UIButton], rowView: UIView) {
-
-        for (index, button) in (buttons).enumerated() {
-
-            var topConstraint = NSLayoutConstraint(
-                item: button, attribute: .top, relatedBy: .lessThanOrEqual,
-                toItem: rowView, attribute: .top, multiplier: 1.0, constant: 1.0
-            )
-            var bottomConstraint = NSLayoutConstraint(
-                item: button, attribute: .bottom,
-                relatedBy: .greaterThanOrEqual, toItem: rowView,
-                attribute: .bottom, multiplier: 1.0, constant: -1.0)
-
-            var rightConstraint: NSLayoutConstraint!
-
-            if index == buttons.count - 1 {
-
-                rightConstraint = NSLayoutConstraint(
-                    item: button, attribute: .right,
-                    relatedBy: .greaterThanOrEqual, toItem: rowView,
-                    attribute: .right, multiplier: 1.0, constant: 0.0)
-
-            } else {
-
-                let nextButton = buttons[index + 1]
-                rightConstraint = NSLayoutConstraint(
-                    item: button, attribute: .right, relatedBy: .equal,
-                    toItem: nextButton, attribute: .left, multiplier: 1.0,
-                    constant: -1.0)
-            }
-
-            var leftConstraint: NSLayoutConstraint!
-
-            if index == 0 {
-
-                leftConstraint = NSLayoutConstraint(
-                    item: button, attribute: .left, relatedBy: .lessThanOrEqual,
-                    toItem: rowView, attribute: .left, multiplier: 1.0,
-                    constant: 0.0)
-
-            } else {
-
-                let prevtButton = buttons[index - 1]
-                leftConstraint = NSLayoutConstraint(
-                    item: button, attribute: .left, relatedBy: .equal,
-                    toItem: prevtButton, attribute: .right, multiplier: 1.0,
-                    constant: 1.0)
-
-                let firstButton = buttons[0]
-                var widthConstraint = NSLayoutConstraint(
-                    item: firstButton, attribute: .width, relatedBy: .equal,
-                    toItem: button, attribute: .width, multiplier: 1.0,
-                    constant: 0.0)
-
-                widthConstraint.priority = .defaultHigh
-                rowView.addConstraint(widthConstraint)
-            }
-
-            rowView.addConstraints([
-                topConstraint, bottomConstraint, rightConstraint,
-                leftConstraint,
+    
+    func setupKeyboard() {
+        // 創建主要容器視圖
+        let containerView = UIView()
+        containerView.backgroundColor = UIColor.systemGray3
+        containerView.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(containerView)
+        
+        // 設置容器視圖約束
+        NSLayoutConstraint.activate([
+            containerView.leadingAnchor.constraint(equalTo: view.leadingAnchor),
+            containerView.trailingAnchor.constraint(equalTo: view.trailingAnchor),
+            containerView.topAnchor.constraint(equalTo: view.topAnchor),
+            containerView.bottomAnchor.constraint(equalTo: view.bottomAnchor)
+        ])
+        
+        setupButtons(in: containerView)
+        setupLayout()
+    }
+    
+    func setupButtons(in containerView: UIView) {
+        // 創建切換鍵盤按鈕
+        
+        // 創建刪除按鈕
+        deleteButton = UIButton(type: .system)
+        deleteButton.setTitle("⌫",for: .normal)
+        deleteButton.setTitleColor(.label,for: .normal)
+        deleteButton.titleLabel?.font = UIFont.systemFont(ofSize: 20)
+        deleteButton.backgroundColor = UIColor.systemGray2
+        deleteButton.layer.cornerRadius = 5
+        deleteButton.addTarget(self, action: #selector(deleteBackward), for: .touchUpInside)
+        
+        // 創建空格鈕
+        spaceButton = UIButton(type: .system)
+        spaceButton.setTitle("space", for: .normal)
+        spaceButton.setTitleColor(.label, for: .normal)
+        spaceButton.backgroundColor = UIColor.systemBackground
+        spaceButton.layer.cornerRadius = 5
+        spaceButton.addTarget(self, action: #selector(insertSpace), for: .touchUpInside)
+        
+        // 添加到容器視圖
+        [deleteButton, spaceButton].forEach {
+            $0.translatesAutoresizingMaskIntoConstraints = false
+            containerView.addSubview($0)
+        }
+        
+        // 創建字母按鈕
+        createLetterButtons(in: containerView)
+    }
+    
+    func createLetterButtons(in containerView: UIView) {
+        let letters = [
+            ["Q", "W", "E", "R", "T", "Y", "U", "I", "O", "P"],
+            ["A", "S", "D", "F", "G", "H", "J", "K", "L"],
+            ["Z", "X", "C", "V", "B", "N", "M"]
+        ]
+        
+        var previousRowView: UIView?
+        
+        for (_, row) in letters.enumerated() {
+            let rowView = UIView()
+            rowView.translatesAutoresizingMaskIntoConstraints = false
+            containerView.addSubview(rowView)
+            
+            // 設置行約束
+            NSLayoutConstraint.activate([
+                rowView.leadingAnchor.constraint(equalTo: containerView.leadingAnchor, constant: 10),
+                rowView.trailingAnchor.constraint(equalTo: containerView.trailingAnchor, constant: -10),
+                rowView.heightAnchor.constraint(equalToConstant: 40)
             ])
+            
+            if let previousRow = previousRowView {
+                rowView.topAnchor.constraint(equalTo: previousRow.bottomAnchor, constant: 8).isActive = true
+            } else {
+                rowView.topAnchor.constraint(equalTo: containerView.topAnchor, constant: 10).isActive = true
+            }
+            
+            // 創建該行的按鈕
+            var buttons: [UIButton] = []
+            for letter in row {
+                let button = UIButton(type: .system)
+                button.setTitle(letter, for: .normal)
+                button.setTitleColor(.label, for: .normal)
+                button.backgroundColor = UIColor.systemBackground
+                button.layer.cornerRadius = 5
+                button.layer.borderWidth = 1
+                button.layer.borderColor = UIColor.systemGray3.cgColor
+                button.addTarget(self, action: #selector(letterButtonTapped(_:)), for: .touchUpInside)
+                button.translatesAutoresizingMaskIntoConstraints = false
+                buttons.append(button)
+                rowView.addSubview(button)
+            }
+            
+            // 設置按鈕約束
+            for (index, button) in buttons.enumerated() {
+                button.topAnchor.constraint(equalTo: rowView.topAnchor).isActive = true
+                button.bottomAnchor.constraint(equalTo: rowView.bottomAnchor).isActive = true
+                
+                if index == 0 {
+                    button.leadingAnchor.constraint(equalTo: rowView.leadingAnchor).isActive = true
+                } else {
+                    button.leadingAnchor.constraint(equalTo: buttons[index-1].trailingAnchor, constant: 6).isActive = true
+                    button.widthAnchor.constraint(equalTo: buttons[0].widthAnchor).isActive = true
+                }
+                
+                if index == buttons.count - 1 {
+                    button.trailingAnchor.constraint(equalTo: rowView.trailingAnchor).isActive = true
+                }
+            }
+            
+            previousRowView = rowView
         }
     }
-
-    func createRowOfButtons(buttonTitles: [String]) -> UIView {
-
-        var buttons = [UIButton]()
-        var keyboardRowView = UIView(frame: CGRectMake(0, 0, 320, 50))
-
-        for buttonTitle in buttonTitles {
-
-            let button = createButtonWithTitle(title: buttonTitle as String)
-            buttons.append(button)
-            keyboardRowView.addSubview(button)
-        }
-
-        addIndividualButtonConstraints(
-            buttons: buttons, rowView: keyboardRowView)
-
-        return keyboardRowView
+    
+    func setupLayout() {
+        // 設置底部按鈕約束
+        NSLayoutConstraint.activate([
+            
+            // 空格按鈕
+            spaceButton.centerXAnchor.constraint(equalTo: view.centerXAnchor),
+            spaceButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -10),
+            spaceButton.widthAnchor.constraint(equalToConstant: 200),
+            spaceButton.heightAnchor.constraint(equalToConstant: 40),
+            
+            // 刪除按鈕
+            deleteButton.trailingAnchor.constraint(equalTo: view.trailingAnchor, constant: -10),
+            deleteButton.bottomAnchor.constraint(equalTo: view.bottomAnchor, constant: -10),
+            deleteButton.widthAnchor.constraint(equalToConstant: 50),
+            deleteButton.heightAnchor.constraint(equalToConstant: 40)
+        ])
     }
-
-    func addConstraintsToInputView(inputView: UIView, rowViews: [UIView]) {
-
-        for (index, rowView) in (rowViews).enumerated() {
-
-            var rightSideConstraint = NSLayoutConstraint(
-                item: rowView, attribute: .right, relatedBy: .equal,
-                toItem: inputView, attribute: .right, multiplier: 1.0,
-                constant: 0.0)
-            var leftConstraint = NSLayoutConstraint(
-                item: rowView, attribute: .left, relatedBy: .equal,
-                toItem: inputView, attribute: .left, multiplier: 1.0,
-                constant: 0.0)
-
-            inputView.addConstraints([leftConstraint, rightSideConstraint])
-
-            var topConstraint: NSLayoutConstraint
-
-            if index == 0 {
-                topConstraint = NSLayoutConstraint(
-                    item: rowView, attribute: .top, relatedBy: .equal,
-                    toItem: inputView, attribute: .top, multiplier: 1.0,
-                    constant: 0.0)
-            } else {
-
-                let prevRow = rowViews[index - 1]
-                topConstraint = NSLayoutConstraint(
-                    item: rowView, attribute: .top, relatedBy: .equal,
-                    toItem: prevRow, attribute: .bottom, multiplier: 1.0,
-                    constant: 0.0)
-
-                let firstRow = rowViews[0]
-                var heightConstraint = NSLayoutConstraint(
-                    item: firstRow, attribute: .height, relatedBy: .equal,
-                    toItem: rowView, attribute: .height, multiplier: 1.0,
-                    constant: 0.0)
-
-                heightConstraint.priority = .defaultHigh
-                inputView.addConstraint(heightConstraint)
-            }
-            inputView.addConstraint(topConstraint)
-
-            var bottomConstraint: NSLayoutConstraint
-
-            if index == (rowViews.count - 1) {
-                bottomConstraint = NSLayoutConstraint(
-                    item: rowView, attribute: .bottom, relatedBy: .equal,
-                    toItem: inputView, attribute: .bottom, multiplier: 1.0,
-                    constant: 0.0)
-
-            } else {
-
-                let nextRow = rowViews[index + 1]
-                bottomConstraint = NSLayoutConstraint(
-                    item: rowView, attribute: .bottom, relatedBy: .equal,
-                    toItem: nextRow, attribute: .top, multiplier: 1.0,
-                    constant: 0.0)
-            }
-
-            inputView.addConstraint(bottomConstraint)
-        }
-
+    
+    // MARK: - 按鈕事件處理
+    
+    @objc func letterButtonTapped(_ sender: UIButton) {
+        guard let letter = sender.title(for: .normal) else { return }
+        textDocumentProxy.insertText(letter.lowercased())
+    }
+    
+    @objc func insertSpace() {
+        textDocumentProxy.insertText(" ")
+    }
+    
+    @objc func deleteBackward() {
+        textDocumentProxy.deleteBackward()
+    }
+    
+    override func textWillChange(_ textInput: UITextInput?) {
+        // 文字將要改變時調用
+    }
+    
+    override func textDidChange(_ textInput: UITextInput?) {
+        // 文字已改變時調用 - 可以在這裡實現智能提示等功能
     }
 }
